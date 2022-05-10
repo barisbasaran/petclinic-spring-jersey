@@ -1,33 +1,30 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Package Files
+*.jar
+*.war
+*.ear
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IntelliJ project files
 *.iml
 *.ipr
+*.iws
+.idea
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Eclipse project files
+.classpath
+.project
+.settings
 
-### VS Code ###
-.vscode/
+# Build outputs
+*.class
+target
+dependency-reduced-pom.xml
+
+# OS files
+.DS_Store
+
+# Other
+*.swp
+.aws
+.config
+.exec
+HELP.md
