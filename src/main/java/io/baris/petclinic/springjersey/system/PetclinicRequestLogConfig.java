@@ -4,8 +4,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.filter.ServletContextRequestLoggingFilter;
 
+/**
+ * Logs the HTTP calls
+ */
 @Configuration
-public class RequestLoggingFilterConfig {
+public class PetclinicRequestLogConfig {
 
     @Bean
     public ServletContextRequestLoggingFilter logFilter() {

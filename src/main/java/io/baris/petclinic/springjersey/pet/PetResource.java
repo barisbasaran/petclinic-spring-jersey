@@ -28,6 +28,10 @@ import static io.baris.petclinic.springjersey.pet.PetMapper.mapToCreatePet;
 import static io.baris.petclinic.springjersey.pet.PetMapper.mapToUpdatePet;
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 
+/**
+ * Handles the pet endpoints
+ */
+
 @Path("/pets")
 @Consumes(APPLICATION_JSON)
 @Produces(APPLICATION_JSON)

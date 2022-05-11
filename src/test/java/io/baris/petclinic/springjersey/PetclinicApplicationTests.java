@@ -13,7 +13,7 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 class PetclinicApplicationTests {
 
     @Test
-    void contextLoads(@Autowired WebTestClient webClient) {
+    void homepage(@Autowired WebTestClient webClient) {
         webClient
             .get().uri("/")
             .exchange()

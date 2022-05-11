@@ -8,6 +8,9 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
+/**
+ * Handles the homepage endpoints
+ */
 @Path("/")
 public class HomeResource {
 

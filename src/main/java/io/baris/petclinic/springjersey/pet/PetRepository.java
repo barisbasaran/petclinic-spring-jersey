@@ -10,6 +10,9 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Manages the pet data
+ */
 public interface PetRepository extends Repository<PetEntity, Integer> {
 
 	@Query("SELECT pet FROM PetEntity pet WHERE pet.id =:id")

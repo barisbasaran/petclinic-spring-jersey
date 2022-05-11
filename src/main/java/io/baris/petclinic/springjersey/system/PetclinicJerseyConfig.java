@@ -6,6 +6,9 @@ import io.swagger.v3.jaxrs2.integration.resources.OpenApiResource;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;
 
+/**
+ * Registers the REST resources to serve the endpoints
+ */
 @Component
 public class PetclinicJerseyConfig extends ResourceConfig {
 

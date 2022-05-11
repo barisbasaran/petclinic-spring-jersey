@@ -8,7 +8,7 @@ import io.baris.petclinic.springjersey.pet.model.UpdatePet;
 import io.baris.petclinic.springjersey.pet.model.UpdatePetRequest;
 
 /**
- * Maps pet api classes
+ * Maps pet model classes
  */
 public class PetMapper {
 

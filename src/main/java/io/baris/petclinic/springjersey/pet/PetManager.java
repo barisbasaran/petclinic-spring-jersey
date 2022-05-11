@@ -12,7 +12,7 @@ import java.util.Optional;
 import static io.baris.petclinic.springjersey.pet.PetMapper.mapToPetEntity;
 
 /**
- * Manages the pet
+ * Manages the pets
  */
 @Component
 public class PetManager {
