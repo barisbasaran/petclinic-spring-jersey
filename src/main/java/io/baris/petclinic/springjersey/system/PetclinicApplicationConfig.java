@@ -5,11 +5,14 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.filter.ServletContextRequestLoggingFilter;
 
 /**
- * Logs the HTTP calls
+ * Configures the application
  */
 @Configuration
-public class PetclinicRequestLogConfig {
+public class PetclinicApplicationConfig {
 
+    /**
+     * Logs the HTTP calls
+     */
     @Bean
     public ServletContextRequestLoggingFilter logFilter() {
         var filter = new ServletContextRequestLoggingFilter();
