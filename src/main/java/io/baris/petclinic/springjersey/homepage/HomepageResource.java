@@ -1,4 +1,4 @@
-package io.baris.petclinic.springjersey.home;
+package io.baris.petclinic.springjersey.homepage;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -12,7 +12,7 @@ import javax.ws.rs.Path;
  * Handles the homepage endpoints
  */
 @Path("/")
-public class HomeResource {
+public class HomepageResource {
 
     @Operation(
         summary = "Homepage",

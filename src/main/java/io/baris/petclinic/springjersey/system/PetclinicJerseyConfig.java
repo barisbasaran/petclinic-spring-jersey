@@ -1,6 +1,6 @@
 package io.baris.petclinic.springjersey.system;
 
-import io.baris.petclinic.springjersey.home.HomeResource;
+import io.baris.petclinic.springjersey.homepage.HomepageResource;
 import io.baris.petclinic.springjersey.pet.PetResource;
 import io.swagger.v3.jaxrs2.integration.resources.OpenApiResource;
 import org.glassfish.jersey.server.ResourceConfig;
@@ -17,7 +17,7 @@ public class PetclinicJerseyConfig extends ResourceConfig {
         register(CorsResponseFilter.class);
 
         // register resources
-        register(HomeResource.class);
+        register(HomepageResource.class);
         register(PetResource.class);
         register(OpenApiResource.class);
     }
